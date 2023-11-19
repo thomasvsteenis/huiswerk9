@@ -1,0 +1,41 @@
+body {
+    background-color: #ffcccc; /* lichte rode achtergrond */
+    color: #006600; /* donkergroene tekstkleur */
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header, footer {
+    text-align: center;
+  }
+  
+  #Eventix {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  #Eventix th, #Eventix td {
+    border: 1px solid #666;
+    padding: 10px;
+  }
+  
+  #Eventix th {
+    background-color: lightblue;
+  }
+  
+  #cel1, #cel3, #cel5, #cel7, #cel9, #cel11, #cel13, #cel15 {
+    background-color: #ffcc00; /* gele achtergrond */
+  }
+  
+  #cel2, #cel4, #cel6, #cel8, #cel10, #cel12, #cel14, #cel16 {
+    background-color: #66ccff; /* lichte blauwe achtergrond */
+  }
+  
+  footer {
+    background-color: lightcoral;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
